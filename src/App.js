@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+import Details from './pages/Details';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Router>
+        <Route exact path="/" component={HomePage}/>
+        <Route path="/categories/:idc" component={Details}/>
+      </Router> 
     </div>
   );
 }
