@@ -28,4 +28,3 @@ export default function Breadcrumb({list}) {
 Breadcrumb.propTypes = {
     list : propTypes.array.isRequired,
 }
-

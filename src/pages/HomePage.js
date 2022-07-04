@@ -7,7 +7,7 @@ import BrowseRoom from '../parts/HomePage/BrowseRoom'
 import JustArrived from '../parts/HomePage/JustArrived'
 import Sitemap from '../parts/Sitemap'
 
-function HomePage(props) {
+function HomePage() {
   return (
     <>
       <Header theme="white" position="absolute" />
